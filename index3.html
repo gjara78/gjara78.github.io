@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    
+    <h1 class="text-center">DESAFIO ALURA</h1>
+    <h2 class="text-center">ENCRIPTAR MENSAJE</h2>
+
+    <div class="container input-group mt-5 mb-3">
+        <input type="text" id="mensaje" class="form-control" placeholder="Digite el mensaje a encriptar o Desencriptar"
+            aria-describedby="basic-addon1">
+    </div>
+
+    <div class=" mt-5 mx-5 btn-group d-flex gap-3" role="group" aria-label="Basic example">
+        <button type="button" id="encriptar" onclick="encriptar()" class="btn btn-success btn-lg">Encriptar</button>
+        <button type="button" id="desencriptar" onclick="desencriptar()" class="btn btn-success btn-lg">Desencriptar</button>
+
+    </div>
+
+    <div class="container input-group mt-5">
+        <button type="button" onclick="copiar()" class="btn btn-success">Copiar</button>
+        <textarea class="form-control" rows="5" cols="20" id="text_area" aria-label="With textarea"></textarea>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+
+
+</body>
+
+</html>

@@ -1,0 +1,364 @@
+.logo-icon {
+    height: 48px;
+    width: 120px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .lorem-ipsum-dolor {
+    align-self: stretch;
+    position: relative;
+    font-size: inherit;
+    line-height: 150%;
+    font-weight: 400;
+    font-family: inherit;
+  }
+  #mensaje{
+    margin-top: -95px;
+  }
+  .biexclamation-circle-fill-icon {
+    height: 16px;
+    width: 16px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .apenas-letras-minsculas {
+    position: relative;
+    line-height: 150%;
+  }
+  .small-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0 8px;
+  }
+  .button1 {
+    flex: 1;
+    position: relative;
+    font-size: var(--font-size-base);
+    font-family: var(--font-inter);
+    color: var(--white);
+    text-align: center;
+  }
+  .button {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-5xl);
+    background-color: var(--dark-blue-dark-blue-300);
+    align-self: stretch;
+    border-radius: var(--br-5xl);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .button:hover {
+    background-color: var(--color-steelblue-100);
+  }
+  .warning-symbol {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px 0;
+    min-width: 213px;
+    max-width: 100%;
+  }
+  .button3 {
+    flex: 1;
+    position: relative;
+    font-size: var(--font-size-base);
+    font-family: var(--font-inter);
+    color: var(--dark-blue-dark-blue-300);
+    text-align: center;
+  }
+  .button2,
+  .content-frame {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+  .button2 {
+    cursor: pointer;
+    border: 1px solid var(--dark-blue-dark-blue-300);
+    padding: var(--padding-5xl) var(--padding-4xl);
+    background-color: transparent;
+    flex: 0.8537;
+    border-radius: var(--br-5xl);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    min-width: 213px;
+  }
+  .button2:hover,
+  .button4:hover {
+    background-color: var(--color-steelblue-200);
+    border: 1px solid var(--color-steelblue-100);
+    box-sizing: border-box;
+  }
+  .content-frame {
+    align-self: stretch;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 0 24px;
+    text-align: left;
+    font-size: 12px;
+    color: rgba(73, 80, 87, 0.8);
+    font-family: var(--font-inter);
+  }
+  .encriptador-2-desktop-inner,
+  .lorem-ipsum-dolor-sit-amet-con-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .lorem-ipsum-dolor-sit-amet-con-parent {
+    align-self: stretch;
+    gap: 395px 0;
+  }
+  .encriptador-2-desktop-inner {
+    width: 680px;
+    padding: 128px 0 0;
+    box-sizing: border-box;
+  }
+  .page-icon,
+  .page-icon1 {
+    width: 40px;
+    height: 40px;
+    position: relative;
+  }
+  .list,
+  .menu {
+    border-radius: var(--br-781xl);
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .list {
+    background-color: var(--white);
+    display: flex;
+    padding: var(--padding-base);
+    gap: 16px 0;
+  }
+  .menu {
+    background-color: var(--color-gray);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+    display: none;
+    padding: var(--padding-5xl);
+  }
+  .page-icon-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: var(--dark-blue-dark-blue-300);
+  }
+  .pt {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    line-height: 150%;
+  }
+  .page-icon2 {
+    align-self: stretch;
+    height: 40px;
+    position: relative;
+  }
+  .page-icon-item {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+  }
+  .es {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    line-height: 150%;
+  }
+  .page-icon3 {
+    align-self: stretch;
+    height: 40px;
+    position: relative;
+    color: var(--dark-blue-dark-blue-300);
+  }
+  .list1,
+  .menu1 {
+    border-radius: var(--br-781xl);
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .list1 {
+    align-self: stretch;
+    background-color: var(--white);
+    display: flex;
+    padding: var(--padding-base);
+    gap: 16px 0;
+  }
+  .menu1 {
+    background-color: var(--color-gray);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+    display: none;
+    padding: var(--padding-5xl);
+    text-align: center;
+    font-size: var(--font-size-base);
+    color: var(--white);
+  }
+  .info-area-child {
+    width: 400px;
+    height: 944px;
+    position: relative;
+    border-radius: var(--br-13xl);
+    background-color: var(--white);
+    box-shadow: var(--shadow);
+    display: none;
+    max-width: 100%;
+  }
+  .lorem-ipsum-dolor1 {
+    margin: 0;
+    align-self: stretch;
+    height: 781px;
+    position: relative;
+    font-size: inherit;
+    line-height: 150%;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .button5 {
+    flex: 1;
+    position: relative;
+    font-size: var(--font-size-base);
+    font-family: var(--font-inter);
+    color: var(--dark-blue-dark-blue-300);
+    text-align: center;
+  }
+  .button4 {
+    cursor: pointer;
+    border: 1px solid var(--dark-blue-dark-blue-300);
+    padding: var(--padding-5xl) var(--padding-4xl);
+    background-color: transparent;
+    align-self: stretch;
+    border-radius: var(--br-5xl);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+  }
+  .encriptador-2-desktop,
+  .info-area {
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .info-area {
+    width: 400px;
+    border-radius: var(--br-13xl);
+    background-color: var(--white);
+    box-shadow: var(--shadow);
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    gap: 32px 0;
+    max-width: 100%;
+    font-size: 24px;
+    color: var(--gray-gray-400);
+  }
+  .encriptador-2-desktop {
+    position: relative;
+    background-color: var(--light-blue-light-blue-100);
+    width: 100%;
+    overflow: hidden;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 40px;
+    gap: 0 80px;
+    letter-spacing: normal;
+    text-align: left;
+    font-size: 32px;
+    color: var(--dark-blue-dark-blue-300);
+    font-family: var(--font-inter);
+  }
+  footer {
+    margin-top: -25px;
+  }
+  @media screen and (max-width: 1350px) {
+    .encriptador-2-desktop {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 1125px) {
+    .encriptador-2-desktop-inner {
+      padding-top: 83px;
+      box-sizing: border-box;
+    }
+    .info-area {
+      padding-top: var(--padding-2xl);
+      padding-bottom: var(--padding-2xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .lorem-ipsum-dolor {
+      font-size: 26px;
+      line-height: 38px;
+    }
+    .content-frame {
+      flex-wrap: wrap;
+    }
+    .lorem-ipsum-dolor-sit-amet-con-parent {
+      gap: 395px 0;
+    }
+    .info-area {
+      padding-top: var(--padding-xl);
+      padding-bottom: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .encriptador-2-desktop {
+      gap: 0 80px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .lorem-ipsum-dolor {
+      font-size: var(--font-size-lgi);
+      line-height: 29px;
+    }
+    .button2 {
+      flex: 1;
+    }
+    .lorem-ipsum-dolor-sit-amet-con-parent {
+      gap: 395px 0;
+    }
+    .encriptador-2-desktop-inner {
+      padding-top: 54px;
+      box-sizing: border-box;
+    }
+    .lorem-ipsum-dolor1 {
+      font-size: var(--font-size-lgi);
+      line-height: 29px;
+    }
+    .info-area {
+      gap: 32px 0;
+    }
+    .encriptador-2-desktop {
+      gap: 0 80px;
+    }
+  }
+  

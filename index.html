@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" />
+</head>
+
+<body>
+    <div class="encriptador-2-desktop">
+        <img class="logo-icon" loading="eager" alt="" src="./logo.png" />
+
+        <div class="encriptador-2-desktop-inner">
+            <div class="lorem-ipsum-dolor-sit-amet-con-parent">
+                <textarea class="" name="" id="mensaje" cols="30" rows="5"></textarea>
+                <!-- <h1 class="lorem-ipsum-dolor">
+            Lorem ipsum dolor sit amet consectetur adipiscing elit Orci montes
+            sit et diam risus scelerisque vitae est Tortor maecenas nunc ut
+            laoreet Eget diam mauris quam quisque ut eget fringilla sit elit
+            Libero sodales duis fames id diam feugiat aliquet non egestas
+          </h1> -->
+        
+                <footer class="content-frame">
+                    <div class="warning-symbol">
+                        <div class="small-text">
+                            <img class="biexclamation-circle-fill-icon" loading="eager" alt=""
+                                src="./public/biexclamationcirclefill.svg" />
+
+                            <div class="apenas-letras-minsculas">
+                                Apenas letras minúsculas e sem acento.
+                            </div>
+                        </div>
+                        <button class="button">
+                            <div class="button1" onclick="encriptar()">Encriptar</div>
+                        </button>
+                    </div>
+                    <button class="button2">
+                        <div class="button3" onclick="desencriptar()">Desencriptar</div>
+                    </button>
+                </footer>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="list">
+                <img class="page-icon" alt="" src="./public/page-icon.svg" />
+
+                <img class="page-icon1" alt="" src="./public/page-icon-1.svg" />
+            </div>
+        </div>
+        <div class="menu1">
+            <div class="list1">
+                <div class="page-icon2">
+                    <div class="page-icon-child"></div>
+                    <div class="pt">PT</div>
+                </div>
+                <div class="page-icon3">
+                    <div class="page-icon-item"></div>
+                    <div class="es">ES</div>
+                </div>
+            </div>
+        </div>
+        <div class="info-area">
+            <div class="info-area-child"></div>
+            <textarea name="" id="text_area" cols="20" rows="20"></textarea>
+            <!-- <h3 class="lorem-ipsum-dolor1">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci montes,
+                sit et diam risus scelerisque vitae est. Tortor maecenas nunc ut
+                laoreet. Eget diam mauris quam quisque ut eget fringilla sit elit.
+                Libero, sodales duis fames id diam feugiat aliquet non egestas.
+            </h3> -->
+            <button class="button4">
+                <div class="button5" onclick="copiar()">Copiar</div>
+            </button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
