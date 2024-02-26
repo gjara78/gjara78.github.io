@@ -1,6 +1,7 @@
 
 const textoDesencriptado = document.getElementById("mensaje")
-
+const textoEncriptado = document.getElementById("mensaje")
+const mensaje = textoEncriptado.toLowerCase();
 
 function encriptar() {
     let vowels = ['a', 'e', 'i', 'o', 'u'];  //Vocales
