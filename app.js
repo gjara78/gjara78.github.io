@@ -6,7 +6,7 @@ function encriptar() {
     let vowels = ['a', 'e', 'i', 'o', 'u'];  //Vocales
     let vowelsConv = ['ai', 'enter', 'imos', 'ober', 'ufat']
     const textoEncriptado = document.getElementById("mensaje").value;
-    let mensaje = textoEncriptado.toLowerCase();
+    const mensaje = textoEncriptado.toLowerCase();
 
     mensaje = mensaje.split("").map((char, i) => {
         if (vowels.includes(char)) {
